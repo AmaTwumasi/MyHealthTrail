@@ -1,2 +1,2 @@
 # MyHealthTrail
-Tis project is still under development.
+This project is still under development.
