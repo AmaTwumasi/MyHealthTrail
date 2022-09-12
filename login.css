@@ -89,3 +89,7 @@ form button{
     border: 1px solid transparent !important;
 
 }
+small{
+    font-size: 11px;
+    margin: 100px;
+}
