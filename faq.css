@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.my-mt {
+    margin-top: 10rem;
+    z-index: -1;
+}
+
+.accordion-button::after {
+    background-image: url(./img/plus.svg) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000 !important;
+    background-color: #fff !important;
+}
