@@ -1,16 +1,13 @@
 .navbar {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(170, 88, 170)); 
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(170, 88, 170)); 
 }
 .navbar-brand {
   margin-left: 10px;
-  font-size: 35px;
+  font-size: 35px !important;
   color:rgb(234, 0, 255);
 }
 .navbar-nav {
-  position: relative;
- left: 370px;
-
- 
+  margin-left: auto;
 }
  .nav-item a:hover:not(.active) {
 
@@ -22,5 +19,5 @@ color:rgb(66, 29, 233);
 }
 .nav-link {
   font-size: 20px;
-  color:rgb(255, 255, 255);
+  color:rgb(255, 255, 255) !important;
 }
