@@ -32,7 +32,7 @@
 }
 #signin {
   background-color: rgb(187, 114, 187);
-  border: 2px solid rgb(47, 146, 177);
+  border: 2px solid rgb(182, 216, 226);
   border-radius: 20px;
   width: 100px;
   text-align: center;
@@ -53,7 +53,9 @@
 font-family: var(--default-font-family);
 }
 .hero h1 {
-  color: red;
+  color: rgb(7, 80, 80);
+  margin-top: 20px;
+  font-size: 35px;
 }
 #slideset1 {
   height: 10em; 
@@ -64,20 +66,37 @@ font-family: var(--default-font-family);
 }
   @keyframes autoplay1 {
   0% {visibility: visible}
-  33.33% {visibility: hidden}
+  50% {visibility: hidden}
 }
 #slideset1 > *:nth-child(1) {animation-delay: 0s}
 #slideset1 > *:nth-child(2) {animation-delay: 6s}
 .hero a{
-  background-color:  #39a9dd;
+  background-color: #dd4b39;
   color: white; 
   position: relative;
   top: 130px;
 }
 .hero a:hover{
-  background-color: #dd4b39;
+  background-color: #39a9dd;
   color: white;
   
+}
+.mission {
+  position: relative;
+  margin: 0px 80px;
+ color: rgb(5, 4, 4);
+ padding: 30px;
+}
+.first {
+  position: relative;
+ top: 50px;
+ color: rgb(8, 206, 206);
+}
+.second {
+ margin-left: 50px;
+}
+.mission h2 {
+  font-size: 22px;
 }
 .fa {
   padding: 5px;
