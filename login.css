@@ -95,3 +95,7 @@ form button{
     width: 100%;
     object-fit: cover;
 }
+small{
+    font-size: 11px;
+    margin: 100px;
+}
