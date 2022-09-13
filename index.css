@@ -1,33 +1,42 @@
 .navbar {
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(170, 88, 170)); 
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(170, 88, 170));
 }
+
 .navbar-brand {
   margin-left: 10px;
   font-size: 35px !important;
-  color:rgb(234, 0, 255);
+  color: rgb(234, 0, 255);
 }
+
 .navbar-nav {
   margin-left: auto;
 }
- .nav-item a:hover:not(.active) {
 
-color:rgb(66, 29, 233);
+ul {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
 }
+
+.nav-item a:hover:not(.active) {
+
+  color: rgb(66, 29, 233);
+}
+
 .nav-item {
-  
+
   margin-left: 20px;
 }
+
 .nav-link {
   font-size: 20px;
-  color:rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   opacity: 0.7;
 }
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
+
 .fa {
   padding: 5px;
   font-size: 20px;
@@ -40,8 +49,9 @@ color:rgb(66, 29, 233);
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
+
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -61,11 +71,13 @@ color:rgb(66, 29, 233);
   background: #007bb5;
   color: white;
 }
+
 .fa-instagram {
   background: #125688;
   color: white;
 }
-footer{
+
+footer {
   color: rgb(170, 88, 170);
   margin-top: 20px;
   background-image: linear-gradient(to bottom, #ffffff, #e0d7f1, #c9afde, #b885c6, #aa58aa);
