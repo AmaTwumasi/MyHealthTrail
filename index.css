@@ -102,6 +102,7 @@ footer {
   margin-top: 20px;
   background-image: linear-gradient(to bottom, #ffffff, #e0d7f1, #c9afde, #b885c6, #aa58aa);
 }
+<<<<<<< Updated upstream
 
 
 /* TESTIMONIALS SECTION */
@@ -193,4 +194,27 @@ footer {
 .for_carousel, 
 .hidden_img, .hidden_div {
   display: none;
+=======
+.main-container{
+  margin-top: 96px;
+  padding: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgb(170, 88, 170);
+  transition: 0.3s;
+  width: 200px;
+  height: 160px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 aqua;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.material-icons{
+  color: orangered;
+  font-size: 120px;
+>>>>>>> Stashed changes
 }
