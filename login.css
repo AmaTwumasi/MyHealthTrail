@@ -89,3 +89,9 @@ form button{
     border: 1px solid transparent !important;
 
 }
+
+.form_logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
