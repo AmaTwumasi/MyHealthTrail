@@ -1,23 +1,196 @@
 .navbar {
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(170, 88, 170)); 
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(170, 88, 170));
 }
+
 .navbar-brand {
   margin-left: 10px;
   font-size: 35px !important;
-  color:rgb(234, 0, 255);
+  color: rgb(234, 0, 255);
 }
+
 .navbar-nav {
   margin-left: auto;
 }
- .nav-item a:hover:not(.active) {
 
-color:rgb(66, 29, 233);
+.nav-item a:hover:not(.active) {
+
+  color: rgb(66, 29, 233);
 }
+
 .nav-item {
-  
+
   margin-left: 20px;
 }
+
 .nav-link {
   font-size: 20px;
-  color:rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+.hero {
+   background-image: url(images/happy-smiling-mother-playing-with-newborn-child-comfy-light-bedroom-front-window-moments-motherhood-happiness-with-kids-family-concept.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 500px;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding: 90px 20px;
+font-family: var(--default-font-family);
+}
+.hero h1 {
+  
+  color: red;
+}
+.hero p {
+  color: blue;
+}
+.hero a{
+  background-color: #dd4b39;
+  color: white;
+}
+.hero a:hover{
+  background-color: #39a9dd;
+  color: white;
+}
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+footer {
+  color: rgb(170, 88, 170);
+  margin-top: 20px;
+  background-image: linear-gradient(to bottom, #ffffff, #e0d7f1, #c9afde, #b885c6, #aa58aa);
+}
+
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+  margin: 7% 3%;
+}
+
+.testimonials_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2%;
+}
+
+.testimonials_div p {
+  color: rgb(170, 88, 170);
+  font-weight: bold;
+}
+
+.quote_img {
+  width: 15%;
+  position: absolute;
+  right: 2%;
+  top: 60%;
+}
+
+.clients_div {
+  align-items: center;
+  padding: 1% 2%;
+  z-index: -1;
+}
+
+.clients_div p {
+  font-size: 13px;
+}
+
+.individual_client {
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 3% 5%;
+}
+
+.individual_client:hover {
+  border: 2px solid rgb(170, 88, 170);
+  box-shadow: 0px 0px 30px rgb(20, 30, 39, 0.2);
+  transform: translateY(-7px);
+}
+
+.individual_client p {
+  padding: 1% 4%;
+  text-align: center;
+  line-height: 1.7;
+  word-wrap: break-word;
+}
+
+.individual_client i {
+  color: rgb(170, 88, 170);
+  position: absolute;
+  left: 5%;
+  top: 4%;
+}
+
+.client_info {
+  display: flex;
+  padding: 3% 8%;
+}
+
+.client_info p {
+  text-align: left !important;
+}
+
+.woman_img {
+  background-image: url("img/woman\ \(2\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  border: 2px solid #b885c6;
+  border-radius: 50%;
+}
+
+#testimonials_carousel, 
+.for_carousel, 
+.hidden_img, .hidden_div {
+  display: none;
 }
