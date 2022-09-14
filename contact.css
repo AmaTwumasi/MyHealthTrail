@@ -111,7 +111,8 @@
   #contact-submit {
     cursor: pointer;
     position: relative;
-    left: 0px;
+    top: 10px;
+    left: 150px;
     text-align: center;
     width: 30%;
     border: 1px;
