@@ -32,7 +32,7 @@
 }
 #signin {
   background-color: rgb(187, 114, 187);
-  border: 2px solid rgb(47, 146, 177);
+  border: 2px solid rgb(182, 216, 226);
   border-radius: 20px;
   width: 100px;
   text-align: center;
@@ -53,7 +53,9 @@
 font-family: var(--default-font-family);
 }
 .hero h1 {
-  color: red;
+  color: rgb(7, 80, 80);
+  margin-top: 20px;
+  font-size: 35px;
 }
 #slideset1 {
   height: 10em; 
@@ -64,20 +66,37 @@ font-family: var(--default-font-family);
 }
   @keyframes autoplay1 {
   0% {visibility: visible}
-  33.33% {visibility: hidden}
+  50% {visibility: hidden}
 }
 #slideset1 > *:nth-child(1) {animation-delay: 0s}
 #slideset1 > *:nth-child(2) {animation-delay: 6s}
 .hero a{
-  background-color:  #39a9dd;
+  background-color: #dd4b39;
   color: white; 
   position: relative;
   top: 130px;
 }
 .hero a:hover{
-  background-color: #dd4b39;
+  background-color: #39a9dd;
   color: white;
   
+}
+.mission {
+  position: relative;
+  margin: 0px 80px;
+ color: rgb(5, 4, 4);
+ padding: 30px;
+}
+.first {
+  position: relative;
+ top: 50px;
+ color: rgb(8, 206, 206);
+}
+.second {
+ margin-left: 50px;
+}
+.mission h2 {
+  font-size: 22px;
 }
 .fa {
   padding: 5px;
@@ -125,7 +144,7 @@ footer {
   background-image: linear-gradient(to bottom, #ffffff, #e0d7f1, #c9afde, #b885c6, #aa58aa);
 }
 .main-container{
-  margin-top: 96px;
+  margin-top: 20px;
   padding: 20px;
 }
 .card {
@@ -145,4 +164,74 @@ footer {
 .material-icons{
   color: orangered;
   font-size: 120px;
+}
+
+/* TESTIMONIALS SECTION */
+.testimonials_row {
+  margin-bottom: 8%;
+  width: 100%;
+  padding: 0 2%;
+}
+.testimonials_div {
+  margin-bottom: 0;
+}
+.quote_img {
+  width: 8%;
+  position: absolute;
+  right: 5%;
+}
+
+.testimonials_div p {
+  color: rgb(170, 88, 170);
+  font-weight: bold;
+}
+
+#testimonials_carousel {
+  display: block;
+  text-align: center !important;
+  background-color: rgb(245, 245, 245);
+  width: 30%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  /* margin: 20px; */
+  border: 2px solid #c9afde;
+}
+
+.carousel_in {
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid rgb(170, 88, 170);
+  box-shadow: 0px 0px 30px rgb(20, 30, 39, 0.2);
+}
+.carousel_in:hover {
+  transform: translateY(-7px);
+}
+.testimonial-text {
+  padding: 4% 3%;
+  text-align: center;
+  line-height: 1.5;
+  word-wrap: break-word;
+  width: 85%;
+  margin: 2% auto;
+}
+.for_carousel {
+  display: block;
+  margin: 5%;
+  text-align: center;
+}
+.carousel_text i {
+  color: rgb(170, 88, 170);
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+.first_carousel_text i {
+  left: 9%;
 }
