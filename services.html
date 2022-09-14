@@ -48,7 +48,7 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
            <li class="nav-item">
-              <a class="nav-link" href="Services.html">Find a Consultant</a>
+              <a class="nav-link" href="services.html">Find a Consultant</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="faq.html">FAQ</a>
@@ -70,11 +70,9 @@
   <p>Nutritionist</p>
   <p>Experience: 5years</p>
 </div>
-<div class="third col-sm-4">  
-   <p>Consultation time: 8am to 12pm</p>
-  <p>Consultation fee: $8.99</p>
-  <button>book</button>
-
+<div class="third col-sm-4">
+  <button id="myButton" class="submit-button">book</button>
+  <p>Consultation fee: $5.99</p>
 </div>
 </div>
 <div class="doc row">
@@ -87,9 +85,8 @@
   <p>Experience: 8years</p>
 </div>
 <div class="third col-sm-4">
-  <p>Consultation time: 12pm to 2pm</p>
-  <p>Consultation fee: $6.99</p>
-  <button>book</button>
+  <button id="myButton" class="submit-button">book</button>
+  <p>Consultation fee: $5.99</p>
 </div>
 </div>
 <div class="doc row">
@@ -102,7 +99,7 @@
   <p>Experience: 10years</p>
 </div>
 <div class="third col-sm-4">
-  <p>Consultation time: 2pm to 4pm</p>
+  <button id="myButton" class="submit-button">book</button>
   <p>Consultation fee: $5.99</p>
   <button>book</button>
 </div>
@@ -117,9 +114,8 @@
   <p>Experience: 4years</p>
 </div>
 <div class="third col-sm-4">
-  <p>Consultation time: 4pm to 6pm</p>
-  <p>Consultation fee: $4.99</p>
-  <button>book</button>
+  <button id="myButton" class="submit-button">book</button>
+  <p>Consultation fee: $5.99</p>
 </div>
 </div>
 <div class="doc row">
@@ -147,9 +143,8 @@
   <p>Experience: 7years</p>
 </div>
 <div class="third col-sm-4">
-  <p>Consultation time: 8pm to 10pm</p>
-  <p>Consultation fee: $3.99</p>
-  <button>book</button>
+  <button id="myButton" class="submit-button">book</button>
+  <p>Consultation fee: $5.99</p>
 </div>
 </div>
 <div class="doc row">
@@ -162,9 +157,8 @@
   <p>Experience: 5years</p>
 </div>
 <div class="third col-sm-4">
-  <p>Consultation time: 10pm to 12am</p>
-  <p>Consultation fee: $6.99</p>
-  <button>book</button>
+  <button id="myButton" class="submit-button">book</button>
+  <p>Consultation fee: $5.99</p>
 </div>
 </div>
 <div class="doc row">
@@ -192,7 +186,7 @@
   <p>Experience: 6years</p>
 </div>
 <div class="third col-sm-4">
-  <p>Consultation time: 2am to 4am</p>
+  <button id="myButton" class="submit-button">book</button>
   <p>Consultation fee: $5.99</p>
   <button>book</button>
 </div>
@@ -207,12 +201,18 @@
  <p>Experience: 12years</p>
 </div>
 <div class="third col-sm-4">
-  <p>Consultation time: 4am to 8am</p>
-  <p>Consultation fee: $6.99</p>
-  <button>book</button>
+  <button id="myButton" class="submit-button">book</button>
+  <p>Consultation fee: $5.99</p>
 </div>
 </div>
 </div>
+
+<script type="text/javascript">
+  document.getElementById("myButton").onclick = function () {
+      location.href = "patientinfo.html";
+  };
+</script>
+
     <footer>
       <div class="container">
         <div class="row">
