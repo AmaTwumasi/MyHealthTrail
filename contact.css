@@ -75,6 +75,21 @@
     margin: 0 0 5px;
     padding: 10px;
   }
+  .box__button {
+  position: relative;
+  left: 170px;
+  top: -30px;
+  cursor: pointer;
+    text-align: center;
+    width: 30%;
+    border: 1px;
+    border-radius: 20px 50px 30px 100px;
+    background: #be7abb;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
   
   #contact input[type="text"]:hover,
   #contact input[type="email"]:hover,
@@ -93,9 +108,10 @@
     resize: none;
   }
   
-  #contact button[type="submit"] {
+  #contact-submit {
     cursor: pointer;
     position: relative;
+    top: 10px;
     left: 150px;
     text-align: center;
     width: 30%;
