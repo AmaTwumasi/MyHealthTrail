@@ -54,7 +54,7 @@
    background-repeat: no-repeat;
    height: 500px;
   position: relative;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-top: 80px;
   margin-bottom: 50px;
   padding: 90px 20px;
@@ -63,7 +63,11 @@ font-family: var(--default-font-family);
 .hero h1 {
   color: rgb(7, 80, 80);
   margin-top: 20px;
-  font-size: 35px;
+  font-size: 30px;
+}
+.hero h2{
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .animate_div {
@@ -160,6 +164,9 @@ footer {
   color: rgb(170, 88, 170);
   margin-top: 20px;
   background-image: linear-gradient(to bottom, #ffffff, #e0d7f1, #c9afde, #b885c6, #aa58aa);
+}
+.f-link p{
+  color: rgb(170, 88, 170) !important;
 }
 .main-container{
   margin-top: 20px;
