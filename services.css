@@ -1,5 +1,11 @@
+body {
+background-color: rgb(92, 217, 221);
+    
+}
+
 .doctors {
-    margin: 200px;
+    background-color: white;
+    margin: 100px;
     margin-top: 150px;
     color: rgb(124, 11, 115);
 }
@@ -9,11 +15,13 @@
 
 }
 .doc:hover {
-    
+    transition: 100ms ease-in-out;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px 2px rgb(226, 220, 220);
+    box-shadow: 1px 1px 10px 2px rgb(165, 162, 162);
 }
 img {
+    position: relative;
+    left: 10px;
     width: 140px;
     height: 140px;
     border-radius: 70px;
@@ -23,13 +31,13 @@ img {
 }
 .third {
     position: relative;
-    top: 40px;
-    left: 150px;
+    top: 20px;
+    left: 100px;
 }
 .second {
   position: relative;
     top: 20px;
-    left: -140px;  
+    left: -180px;  
 }
 button {
     margin-bottom: 15px;
