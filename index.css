@@ -8,6 +8,14 @@
   color: rgb(234, 0, 255);
 }
 
+.logo_div {
+  width: 10%;
+}
+
+.logo_img {
+  width: 170%;
+}
+
 .navbar-nav {
   margin-left: auto;
 }
