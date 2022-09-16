@@ -10,3 +10,35 @@ li {
     line-height: 2;
     height: 100%;
 }
+@media only screen and (max-width: 500px) {
+
+.nav-link {
+  font-size: 16px;
+  color: rgb(12, 12, 12) !important;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+#signin {
+  background-color: rgb(187, 114, 187);
+  border: 2px solid rgb(182, 216, 226);
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+}
+main {
+    margin: 10px;
+    margin-top: 70px;
+}
+
+li {
+    font-size: 16px;
+    line-height: 2;
+    height: 100%;
+}
+img {
+    width: 300px;
+    border-radius: 5px;
+}
+}
