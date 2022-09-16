@@ -297,7 +297,9 @@ footer {
   font-weight: bold;
   font-size: 20px;
 }
-
+.btn-branding{
+  display: none;
+}
 .mission {
   flex-direction: column;
   position: relative;
