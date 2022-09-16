@@ -20,3 +20,8 @@ body {
     color: #000 !important;
     background-color: #fff !important;
 }
+@media only screen and (max-width: 500px) {
+    p {
+        color: red;
+    }
+}
